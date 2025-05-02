@@ -1,0 +1,10 @@
+.form {
+  background-color: beige;
+  width: 500px;
+  padding: 25px;
+}
+.icono {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}

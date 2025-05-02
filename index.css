@@ -1,0 +1,71 @@
+body.index {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body.index {
+  background-color: #edeaea;
+}
+
+header {
+  background: #2a7b9b;
+  background: radial-gradient(
+    circle,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(17, 242, 111, 1) 64%
+  );
+  display: flex;
+}
+
+.hero {
+  background-image: url(Imagenes/Hero\ pivote.png);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+div {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.logo {
+  width: 100px;
+}
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: aliceblue;
+  font-size: 20px;
+  border: 2px solid transparent;
+  padding: 5px;
+  transition: 0.4s ease;
+}
+
+a:hover {
+  color: red;
+  transition: 0.4s ease;
+  border: 2px solid rgb(6, 160, 255);
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  align-items: center;
+  margin-top: auto;
+}
