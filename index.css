@@ -69,3 +69,20 @@ footer {
   align-items: center;
   margin-top: auto;
 }
+@media (max-width: 950px) {
+  .subtitulo {
+    font-size: 20px;
+  }
+  .navbar {
+    display: none;
+  }
+}
+.navbarvert {
+  display: flex;
+}
+
+@media (min-width: 951px) {
+  .navbarvert {
+    display: none;
+  }
+}
