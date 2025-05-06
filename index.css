@@ -21,7 +21,7 @@ header {
 }
 
 .hero {
-  background-image: url(Imagenes/Hero\ pivote.png);
+  background-image: url("Imagenes/Hero pivote.png");
   background-size: cover;
   background-position: center;
   height: 40vh;
@@ -50,7 +50,7 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   color: aliceblue;
-  font-size: 20px;
+  font-size: 15px;
   border: 2px solid transparent;
   padding: 5px;
   transition: 0.4s ease;
@@ -66,10 +66,11 @@ footer {
   position: relative;
   bottom: 0;
   width: 100vw;
+  display: flex;
   align-items: center;
   margin-top: auto;
 }
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
   .subtitulo {
     font-size: 20px;
   }
@@ -84,5 +85,30 @@ footer {
 @media (min-width: 951px) {
   .navbarvert {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .contenedor {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero {
+    height: 30vh;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 80px;
   }
 }
